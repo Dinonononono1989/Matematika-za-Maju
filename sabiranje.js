@@ -28,7 +28,6 @@ input.addEventListener('input', function (e) {
     return rezultat = input.value;
 })
 const randomizuj = () => {
-    mestoInformacije.innerText = 'Овде ћеш добити информацију о тачности!';
     container.innerHTML = '';
     const broj1 = () => {
         return Math.floor(Math.random() * 99) + 1;

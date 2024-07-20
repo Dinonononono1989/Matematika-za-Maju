@@ -31,7 +31,6 @@ input.addEventListener('input', function (e) {
     return rezultat = input.value;
 })
 const randomizuj = () => {
-    mestoInformacije.innerText = 'Овде ћеш добити информацију о тачности!';
     container.innerHTML = '';
     const prviBroj = broj1();
     const drugiBroj = broj2();
